@@ -1,0 +1,48 @@
+Gravity data file name                : Gravdata_newareaYG_sp5.dat 
+Magnetic data file name               : Magdata_newareaYG_sp5.dat
+Gravity model file name               : md009.ws 
+Magnetic model file name              : mk009.ws
+
+T0 magnetic field strength            : 55208.01
+Dip angle (degrees)                   : 60.13
+Delta angle (degrees)                 : -6.38
+dI angle (degrees)                    : 60.13
+dA angle (degrees)                    : -6.38
+Gravitational constant                : 6.67e-3
+
+Depth weighting type for gravity      : 1
+Depth weighting type for magnetic     : 1
+Beta1 for gravity depth weighting     : 2.0
+Beta2 for magnetic depth weighting    : 2.0
+Lambda1 for gravity regularization    : 0.5
+Lambda2 for magnetic regularization   : 0.5
+Lambda_damp1 for gravity damping      : 0.9
+Lambda_damp2 for magnetic damping     : 0.9
+WEM iteration number                  : 3
+Pre-iteration number                  : 0
+Case number                           : 5
+Convergence threshold                 : 1e-8
+
+Eta11 for EM&G in EM inversion        : 0.0
+Eta12 for EM&M in EM inversion        : 0.0
+Eta21 for G&M in gravity inversion    : 0.0
+Eta22 for G&EM in gravity inversion   : 0.0
+Eta31 for M&G in magnetic inversion   : 0.0
+Eta32 for M&EM in magnetic inversion  : 0.0
+Eta_damp1 for EM damping              : 0.0
+Eta_damp2 for gravity damping         : 0.0
+Eta_damp3 for magnetic damping        : 0.0
+
+EM pad in X coordinate                : 8
+EM pad in Y coordinate                : 8
+EM pad in Z coordinate                : 10
+Joint area start X coordinate         : 0
+Joint area start Y coordinate         : 0
+Joint area start Z coordinate         : 0
+Joint area range in X direction       : 44
+Joint area range in Y direction       : 60
+Joint area range in Z direction       : 50
+Joint iteration threshold             : 5
+Iteration step size for MG            : 2
+
+Inversion Mode (0=MT, 1=MT+G, 2=MT+M, 3=MT+G+M) : 3
