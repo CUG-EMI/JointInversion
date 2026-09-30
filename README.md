@@ -24,10 +24,10 @@ Synthetic norm-weighting test. The archived files include the synthetic magnetic
 
 ### Model_C_Joint_Inversion
 
-- `trueandinitialmodel`: true and initial model files (.ws/.rho), including their mesh geometry.
-- `Inputdata`: noisy input data (.dat); station coordinates and MT periods are embedded in the data files. `synthetic_MT_16x16_5percent.dat` is the computed 16×16 survey (256 sites, 500 m spacing, coordinates −3750…3750 m, 18 frequencies). `synthetic_MT_5percent.dat` now aliases the 8×8 data, matching the author-confirmed figure survey. The 8×8 alternative is explicitly named.
-- `separate`: selected density, susceptibility and resistivity models.
-- `joint`: selected complete density, susceptibility and resistivity models. Joint MT is 5BLOCKs_NLCG_050-1227-j2.rho recovered from the original archive; both reviewed slices match within 5e-5 in log10 resistivity.
+- `02_True_and_Initial_Models`: true and initial model files (.ws/.rho), including their mesh geometry.
+- `01_Input_Data`: noisy input data (.dat); station coordinates and MT periods are embedded in the data files. `synthetic_MT_16x16_5percent.dat` is the computed 16×16 survey (256 sites, 500 m spacing, coordinates −3750…3750 m, 18 frequencies). `synthetic_MT_5percent.dat` now aliases the 8×8 data, matching the author-confirmed figure survey. The 8×8 alternative is explicitly named.
+- `03_Separate_Inversion_Final`: selected density, susceptibility and resistivity models.
+- `04_Joint_Inversion_Final`: selected complete density, susceptibility and resistivity models. Joint MT is 5BLOCKs_NLCG_050-1227-j2.rho recovered from the original archive; both reviewed slices match within 5e-5 in log10 resistivity.
 
 ### Model C corrections and survey clarification
 
