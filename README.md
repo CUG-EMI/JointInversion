@@ -31,7 +31,19 @@ Synthetic norm-weighting test. The archived files include the synthetic magnetic
 
 ### Model C corrections and survey clarification
 
-Based on the author's clarification, the resistivity entries in the published Table 1 are incorrect. From left to right, blocks A, B and C are all **10 Ω·m**, while blocks D and E are both **500 Ω·m**. The homogeneous background and starting resistivity model are **100 Ω·m**. Only resistivity assignments are corrected; density and susceptibility assignments are unchanged. Both MT surveys have been recomputed using the corrected true model, followed by the stated noise and error calculations.
+The corrected resistivity settings for Model C are listed below, replacing the incorrect entries in the published Table 1.
+
+| Model component | Resistivity (Ω·m) |
+|---|---:|
+| Block A | 10 |
+| Block B | 10 |
+| Block C | 10 |
+| Block D | 500 |
+| Block E | 500 |
+| Homogeneous background | 100 |
+| Homogeneous starting model | 100 |
+
+Blocks A–E are ordered from left to right. Density and susceptibility assignments are unchanged. Both MT surveys have been recomputed using the corrected true model, followed by the stated noise and error calculations.
 
 The author confirms that the inversion-result figures presented in the article used an **8×8 MT survey (64 stations)**. The main text incorrectly describes a **16×16** survey and also gives **289 stations**. A 16×16 station grid has **256 stations**, whereas 289 would correspond to 17×17. This release supplies both survey options:
 
